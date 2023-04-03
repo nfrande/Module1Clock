@@ -42,7 +42,6 @@ public class ClockScript : MonoBehaviour
 			Quaternion.Euler(0f, minutesToDegrees * time.Minute, 0f);
 		    secondsPivot.localRotation =
             Quaternion.Euler(0f, secondsToDegrees * time.Second , 0f);
-            // System.Threading.Thread.Sleep(100);
             secondsPivot.localRotation =
             Quaternion.Euler(0f, secondsToDegrees * time.Second, 0f);
        }
