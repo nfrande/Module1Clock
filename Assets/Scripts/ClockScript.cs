@@ -9,7 +9,7 @@ public class ClockScript : MonoBehaviour
     const float hoursToDegrees = 30f, minutesToDegrees = 6f, secondsToDegrees = 6f;
      [SerializeField]
 	Transform hoursPivot, minutesPivot, secondsPivot;
-    [SerializeField] ClockSelector Clock_Type = ClockSelector.Smooth;
+    [SerializeField] ClockSelector Clock_Type = ClockSelector.Discrete;
     enum ClockSelector
     {
         Smooth,
